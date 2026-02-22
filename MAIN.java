@@ -9,6 +9,57 @@ public class main{
         System.out.println("enter second number : ");
         int num2 = scanner.nextInt();
 
+        //Mebmer 9 Mariya
+        System.out.println("--\sTRIANGLE PATTERN\s--");
+        System.out.println("Enter number of Rows: ");
+
+        if(scanner.hasNextInt()){
+            int row = scanner.nextInt();
+            if (row>0){
+                for(int x = 1;x<=row;x++){
+                    for(int y =1;y<=(row - x);y++){
+                        System.out.print(" ");
+                    }
+                    for(int z=1; z<=x;z++){
+                        System.out.print("* ");
+                    }
+                    System.out.println();
+                }
+            }else{
+                System.out.println("Error: Number of rows must be a positive int!");
+            }
+        }else{
+            System.out.println("Error: Invalid INP!");
+            scanner.next();
+        }
+
+        System.out.println();
+
+        System.out.println("---\sINVERTED TRIANGLE PATTERN\s---");
+        System.out.println("Enter number of Rows: ");
+
+        if(scanner.hasNextInt()){
+            int row= scanner.nextInt();
+            if(row>0){
+                for(int b=row;b>=1; b--){
+                    for(int c =1;c<=(row-b);c++){
+                        System.out.print(" ");
+                    }
+                    for (int j =1; j<=b;j++){
+                        System.out.print("* ");
+                    }
+                    System.out.println();
+                }
+            }else{
+                System.out.println("Error: Number of rows must be a positive number");
+            }
+        }else{
+            System.out.println("INvalid Input!");
+        }
+
+        scanner.close();
+
+
         //3 maryam
         System.out.println("--- MULTIPLICATION  ---");
         int product = num1 * num2;
@@ -63,11 +114,8 @@ public class main{
         double resultOfDiv = dividendNum / divisorNum;
         System.out.printf("%d  OVER  %d  = %.2f", dividendNum, divisorNum, resultOfDiv);
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> origin/main
         System.out.println("--- SUBTRACTION ---");
         System.out.print(" Enter first number: ");
         int subtractFirstNumber = scanner.nextInt();
@@ -110,11 +158,11 @@ public class main{
         scanner.close();
     }
 }
-<<<<<<< HEAD
+
 //10:
 
 static void numberStaircase() {
-static Scanner sc = new Scanner (system.in);
+static Scanner sc = new Scanner (System.in);
     System.out.println("--- NUMBER STAIRCASE PATTERN ---");
     System.out.print("Enter number of rows: ");
     int rows = sc.nextInt();
@@ -141,8 +189,6 @@ static void multiplicationTable() {
 
     }
 }
-=======
 
 
 
->>>>>>> origin/main
