@@ -7,7 +7,22 @@ public class main{
         System.out.println("enter first number : ");
         int num1 = scanner.nextInt();
         System.out.println("enter second number : ");
-        int numb2 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+
+        //3 maryam
+        System.out.println("--- MULTIPLICATION  ---");
+        int product = num1 * num2;
+        System.out.println(num1 + "*" + num2 + "=" + product);
+
+        if (num2 == 0 ){
+            System.out.println("❌ Error: Cannot divide by zero");
+        }
+        else {
+            System.out.println("--- DIVISION ---");
+            int quotient = num1 / num2;
+            System.out.println(num1 + "÷" + num2 + "=" + quotient);
+        }
+        scanner.close();
 
 
         System.out.println("--- FACTORIAL ---");
@@ -48,6 +63,11 @@ public class main{
         double resultOfDiv = dividendNum / divisorNum;
         System.out.printf("%d  OVER  %d  = %.2f", dividendNum, divisorNum, resultOfDiv);
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/main
         System.out.println("--- SUBTRACTION ---");
         System.out.print(" Enter first number: ");
         int subtractFirstNumber = scanner.nextInt();
@@ -64,8 +84,33 @@ public class main{
         int reSubtractionResult=reSubtractFirstNumber-reSubtractSecondNumber;
         System.out.printf(" %d - %d = %d",reSubtractFirstNumber,reSubtractSecondNumber,reSubtractionResult);
 
+
+// 77 Reverse Number
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        int reversed = 0;
+        int original = number;
+
+        while (number > 0) {
+            int digit = number % 10;
+            reversed = reversed * 10 + digit;
+            number = number / 10;
+        }
+
+        System.out.println("Reversed: " + reversed);
+
+        // Palindrome Check
+        if (original == reversed) {
+            System.out.println(original + " is a Palindrome");
+        } else {
+            System.out.println(original + " is NOT a Palindrome");
+        }
+
+        scanner.close();
     }
 }
+<<<<<<< HEAD
 //10:
 
 static void numberStaircase() {
@@ -96,3 +141,8 @@ static void multiplicationTable() {
 
     }
 }
+=======
+
+
+
+>>>>>>> origin/main
