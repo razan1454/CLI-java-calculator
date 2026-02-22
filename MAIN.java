@@ -28,5 +28,14 @@ public class MAIN{
         System.out.println(num1+ " is Odd.");
 
 
+        // 4- Division
+        System.out.println("Enter The dividend number:  ");
+        int dividendNum = scanner.nextInt();
+        System.out.println("Enter The divisor number:  ");
+        int divisorNum = scanner.nextInt();
+        double resultOfDiv = dividendNum / divisorNum;
+        System.out.printf("%d  OVER  %d  = %.2f", dividendNum, divisorNum, resultOfDiv);
+
+
     }
 }
