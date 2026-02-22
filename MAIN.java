@@ -10,5 +10,23 @@ public class MAIN{
         int numb2 = scanner.nextInt();
 
 
+        System.out.println("--- FACTORIAL ---");
+        System.out.println("Enter a non-negative integer: ");
+        num1 = scanner.nextInt();
+        int factorial = 1;
+        for (int i = num1; i >= 1; i--) {
+            factorial = factorial * i;
+        }
+        System.out.println(num1+"! = " + factorial);
+
+        System.out.println("--- EVEN / ODD CHECK ---");
+        System.out.println("Enter a number: ");
+        num1 = scanner.nextInt();
+        if (num1 % 2 == 0) {
+            System.out.println(num1+" is Even.");
+        }
+        System.out.println(num1+ " is Odd.");
+
+
     }
 }
