@@ -7,7 +7,22 @@ public class MAIN{
         System.out.println("enter first number : ");
         int num1 = scanner.nextInt();
         System.out.println("enter second number : ");
-        int numb2 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+
+        //3 maryam
+        System.out.println("--- MULTIPLICATION  ---");
+        int product = num1 * num2;
+        System.out.println(num1 + "*" + numb2 + "=" + product);
+
+        if (num2 == 0 ){
+            System.out.println("❌ Error: Cannot divide by zero");
+        }
+        else {
+            System.out.println("--- DIVISION ---");
+            int quotient = num1 / num2;
+            System.out.println(num1 + "÷" + num2 + "=" + quotient);
+        }
+        scanner.close();
 
 
         System.out.println("--- FACTORIAL ---");
@@ -50,7 +65,7 @@ public class MAIN{
         System.out.printf("%d  OVER  %d  = %.2f", dividendNum, divisorNum, resultOfDiv);
 
 
-=======
+
         System.out.println("--- SUBTRACTION ---");
         System.out.print(" Enter first number: ");
         int subtractFirstNumber = scanner.nextInt();
@@ -66,6 +81,11 @@ public class MAIN{
         int reSubtractSecondNumber = scanner.nextInt();
         int reSubtractionResult=reSubtractFirstNumber-reSubtractSecondNumber;
         System.out.printf(" %d - %d = %d",reSubtractFirstNumber,reSubtractSecondNumber,reSubtractionResult);
+
+
+
+
+
 
     }
 }
