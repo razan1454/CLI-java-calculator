@@ -141,6 +141,7 @@ public class MAIN {
 
         System.out.println(" " + sqnum2 + " has " + count + " digit(s).");
 
+
         //6 FACTORIAL
         System.out.println("--- FACTORIAL ---");
         System.out.println("Enter a non-negative integer: ");
