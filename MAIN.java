@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MAIN{
+public class main{
     public static void main(String [] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -55,7 +55,6 @@ public class MAIN{
         int additionResult=firstNumber+secondNumber;
         System.out.printf(" %d + %d = %d %n",firstNumber,secondNumber, additionResult);
 
-
         // 4- Division
         System.out.println("Enter The dividend number:  ");
         int dividendNum = scanner.nextInt();
@@ -64,8 +63,11 @@ public class MAIN{
         double resultOfDiv = dividendNum / divisorNum;
         System.out.printf("%d  OVER  %d  = %.2f", dividendNum, divisorNum, resultOfDiv);
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> origin/main
         System.out.println("--- SUBTRACTION ---");
         System.out.print(" Enter first number: ");
         int subtractFirstNumber = scanner.nextInt();
@@ -138,6 +140,38 @@ public class MAIN{
 
 
 }
+//10:
+
+static void numberStaircase() {
+static Scanner sc = new Scanner (system.in);
+    System.out.println("--- NUMBER STAIRCASE PATTERN ---");
+    System.out.print("Enter number of rows: ");
+    int rows = sc.nextInt();
+    if (rows <= 0) {
+   System.out.println(" Error: Number of rows must be positive.");
+   return;
+    }
+ for (int i = 1; i <= rows; i++) {
+
+  for (int j = 1; j <= i; j++) {
+  System.out.print(j + " ");
+}
+  System.out.println();
+    }
+}
+//Multiplication
+static void multiplicationTable() {
+
+ System.out.println("--- MULTIPLICATION TABLE ---");
+ System.out.print("Enter a number: ");
+    int n = sc.nextInt();
+    for (int i = 1; i <= 10; i++) {
+ System.out.println(n+ " x " + i + " = " + (n* i));
+
+    }
+}
+
+
 
 
 
