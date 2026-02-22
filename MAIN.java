@@ -7,7 +7,22 @@ public class MAIN{
         System.out.println("enter first number : ");
         int num1 = scanner.nextInt();
         System.out.println("enter second number : ");
-        int numb2 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+
+        //3 maryam
+        System.out.println("--- MULTIPLICATION  ---");
+        int product = num1 * num2;
+        System.out.println(num1 + "*" + num2 + "=" + product);
+
+        if (num2 == 0 ){
+            System.out.println("❌ Error: Cannot divide by zero");
+        }
+        else {
+            System.out.println("--- DIVISION ---");
+            int quotient = num1 / num2;
+            System.out.println(num1 + "÷" + num2 + "=" + quotient);
+        }
+        scanner.close();
 
 
         System.out.println("--- FACTORIAL ---");
@@ -40,6 +55,17 @@ public class MAIN{
         int additionResult=firstNumber+secondNumber;
         System.out.printf(" %d + %d = %d %n",firstNumber,secondNumber, additionResult);
 
+
+        // 4- Division
+        System.out.println("Enter The dividend number:  ");
+        int dividendNum = scanner.nextInt();
+        System.out.println("Enter The divisor number:  ");
+        int divisorNum = scanner.nextInt();
+        double resultOfDiv = dividendNum / divisorNum;
+        System.out.printf("%d  OVER  %d  = %.2f", dividendNum, divisorNum, resultOfDiv);
+
+
+
         System.out.println("--- SUBTRACTION ---");
         System.out.print(" Enter first number: ");
         int subtractFirstNumber = scanner.nextInt();
@@ -55,6 +81,7 @@ public class MAIN{
         int reSubtractSecondNumber = scanner.nextInt();
         int reSubtractionResult=reSubtractFirstNumber-reSubtractSecondNumber;
         System.out.printf(" %d - %d = %d",reSubtractFirstNumber,reSubtractSecondNumber,reSubtractionResult);
+
 
         //power
         System.out.println("\n--- POWER ---");
@@ -74,15 +101,43 @@ public class MAIN{
         // square
         System.out.println("--- SQUARE ROOT ---");
         System.out.println("Enter a number: ");
-        double number = scanner.nextDouble();
+        double number1 = scanner.nextDouble();
 
-        if (number < 0) {
+        if (number1 < 0) {
             System.out.println("Error: Cannot compute square root of a negative number.");
         }else {
-            double sqrt = Math.sqrt(number);
-            System.out.println(" √ "+ number + " = " + sqrt);
+            double sqrt = Math.sqrt(number1);
+            System.out.println(" √ "+ number1 + " = " + sqrt);
         }
+
+// 77 Reverse Number
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        int reversed = 0;
+        int original = number;
+
+        while (number > 0) {
+            int digit = number % 10;
+            reversed = reversed * 10 + digit;
+            number = number / 10;
+        }
+
+        System.out.println("Reversed: " + reversed);
+
+        // Palindrome Check
+        if (original == reversed) {
+            System.out.println(original + " is a Palindrome");
+        } else {
+            System.out.println(original + " is NOT a Palindrome");
+        }
+
+
+
     }
 
 
 }
+
+
+
