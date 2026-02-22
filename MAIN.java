@@ -32,6 +32,14 @@ public class MAIN{
         }
         System.out.println(num1+ " is Odd.");
 
+        System.out.println("--- ADDITION ---");
+        System.out.print(" Enter first number: ");
+        int firstNumber = scanner.nextInt();
+        System.out.print(" Enter second number: ");
+        int secondNumber = scanner.nextInt();
+        int additionResult=firstNumber+secondNumber;
+        System.out.printf(" %d + %d = %d %n",firstNumber,secondNumber, additionResult);
+
 
         // 4- Division
         System.out.println("Enter The dividend number:  ");
@@ -41,6 +49,23 @@ public class MAIN{
         double resultOfDiv = dividendNum / divisorNum;
         System.out.printf("%d  OVER  %d  = %.2f", dividendNum, divisorNum, resultOfDiv);
 
+
+=======
+        System.out.println("--- SUBTRACTION ---");
+        System.out.print(" Enter first number: ");
+        int subtractFirstNumber = scanner.nextInt();
+        System.out.print(" Enter second number: ");
+        int subtractSecondNumber = scanner.nextInt();
+        int subtractionResult=subtractFirstNumber-subtractSecondNumber;
+        System.out.printf(" %d - %d = %d%n",subtractFirstNumber,subtractSecondNumber,subtractionResult);
+
+        System.out.println("--- SUBTRACTION ---");
+        System.out.print(" Enter first number: ");
+        int reSubtractFirstNumber = scanner.nextInt();
+        System.out.print(" Enter second number: ");
+        int reSubtractSecondNumber = scanner.nextInt();
+        int reSubtractionResult=reSubtractFirstNumber-reSubtractSecondNumber;
+        System.out.printf(" %d - %d = %d",reSubtractFirstNumber,reSubtractSecondNumber,reSubtractionResult);
 
     }
 }
