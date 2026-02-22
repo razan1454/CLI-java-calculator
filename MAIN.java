@@ -13,11 +13,14 @@ public class MAIN{
         System.out.println("--- FACTORIAL ---");
         System.out.println("Enter a non-negative integer: ");
         num1 = scanner.nextInt();
-        int factorial = 1;
-        for (int i = num1; i >= 1; i--) {
-            factorial = factorial * i;
-        }
-        System.out.println(num1+"! = " + factorial);
+        if (num1>0){
+            int factorial = 1;
+            for (int i = num1; i >= 1; i--) {
+                factorial = factorial * i;
+            }
+            System.out.println(num1+"! = " + factorial);
+        }System.out.println("Error: Factorial is not defined for negative numbers.");
+
 
         System.out.println("--- EVEN / ODD CHECK ---");
         System.out.println("Enter a number: ");
