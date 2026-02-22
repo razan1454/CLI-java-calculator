@@ -83,9 +83,31 @@ public class MAIN{
         System.out.printf(" %d - %d = %d",reSubtractFirstNumber,reSubtractSecondNumber,reSubtractionResult);
 
 
+// 77 Reverse Number
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
 
+        int reversed = 0;
+        int original = number;
 
+        while (number > 0) {
+            int digit = number % 10;
+            reversed = reversed * 10 + digit;
+            number = number / 10;
+        }
 
+        System.out.println("Reversed: " + reversed);
 
+        // Palindrome Check
+        if (original == reversed) {
+            System.out.println(original + " is a Palindrome");
+        } else {
+            System.out.println(original + " is NOT a Palindrome");
+        }
+
+        scanner.close();
     }
 }
+
+
+
