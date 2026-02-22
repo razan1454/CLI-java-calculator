@@ -133,6 +133,33 @@ public class main{
         System.out.printf(" %d - %d = %d",reSubtractFirstNumber,reSubtractSecondNumber,reSubtractionResult);
 
 
+        //power
+        System.out.println("\n--- POWER ---");
+        System.out.println("Enter base: ");
+        int base = scanner.nextInt();
+
+        System.out.println("Enter exponent: ");
+        int exponent = scanner.nextInt();
+
+        int result = 1;
+
+        for (int i = 0; i < exponent; i++){
+            result *= base;
+        }
+        System.out.println(base + " ^ " + exponent + " = " + result);
+
+        // square
+        System.out.println("--- SQUARE ROOT ---");
+        System.out.println("Enter a number: ");
+        double number1 = scanner.nextDouble();
+
+        if (number1 < 0) {
+            System.out.println("Error: Cannot compute square root of a negative number.");
+        }else {
+            double sqrt = Math.sqrt(number1);
+            System.out.println(" √ "+ number1 + " = " + sqrt);
+        }
+
 // 77 Reverse Number
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
@@ -155,14 +182,17 @@ public class main{
             System.out.println(original + " is NOT a Palindrome");
         }
 
-        scanner.close();
+
+
     }
+
+
 }
 
 //10:
 
 static void numberStaircase() {
-static Scanner sc = new Scanner (System.in);
+Scanner sc = new Scanner (System.in);
     System.out.println("--- NUMBER STAIRCASE PATTERN ---");
     System.out.print("Enter number of rows: ");
     int rows = sc.nextInt();
@@ -189,6 +219,4 @@ static void multiplicationTable() {
 
     }
 }
-
-
 
