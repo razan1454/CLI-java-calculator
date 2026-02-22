@@ -55,5 +55,34 @@ public class MAIN{
         int reSubtractSecondNumber = scanner.nextInt();
         int reSubtractionResult=reSubtractFirstNumber-reSubtractSecondNumber;
         System.out.printf(" %d - %d = %d",reSubtractFirstNumber,reSubtractSecondNumber,reSubtractionResult);
+
+        //power
+        System.out.println("\n--- POWER ---");
+        System.out.println("Enter base: ");
+        int base = scanner.nextInt();
+
+        System.out.println("Enter exponent: ");
+        int exponent = scanner.nextInt();
+
+        int result = 1;
+
+        for (int i = 0; i < exponent; i++){
+            result *= base;
+        }
+        System.out.println(base + " ^ " + exponent + " = " + result);
+
+        // square
+        System.out.println("--- SQUARE ROOT ---");
+        System.out.println("Enter a number: ");
+        double number = scanner.nextDouble();
+
+        if (number < 0) {
+            System.out.println("Error: Cannot compute square root of a negative number.");
+        }else {
+            double sqrt = Math.sqrt(number);
+            System.out.println(" √ "+ number + " = " + sqrt);
+        }
     }
+
+
 }
