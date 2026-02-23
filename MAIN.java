@@ -30,6 +30,37 @@ public class MAIN{
         }
         System.out.println(num1+ " is Odd.");
 
+//10
+    //1-Number Staircase Pattern:
+static void numberStaircase() {
+System.out.println("--- NUMBER STAIRCASE PATTERN ---");
+System.out.print("Enter number of rows: ");
+int rows = sc.nextInt();
+if (rows <= 0) {
+System.out.println(" Error: Number of rows must be positive.");
+ return;
+ }
+ for (int i = 1; i <= rows; i++) {
+ for (int j = 1; j <= i; j++) {
+ System.out.print(j + " ");
+ }
+ System.out.println();
+
+            }
+        }
+
+    }
+}
+static void multiplicationTable() {
+
+    System.out.println("--- MULTIPLICATION TABLE ---");
+
+    System.out.print("Enter a number: ");
+    int number = sc.nextInt();
+
+    for (int i = 1; i <= 10; i++) {
+
+        System.out.println(number + " x " + i + " = " + (number * i));
 
     }
 }
