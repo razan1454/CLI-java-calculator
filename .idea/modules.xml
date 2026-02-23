@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/CLI JAVA.iml" filepath="$PROJECT_DIR$/CLI JAVA.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/CLI-java-calculator.iml" filepath="$PROJECT_DIR$/.idea/CLI-java-calculator.iml" />
+>>>>>>> 52cbc1e6611e9d644384a8ebfa6d1669d921fbc6
+    </modules>
+  </component>
+</project>
