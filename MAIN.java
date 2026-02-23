@@ -91,7 +91,7 @@ public class MAIN{
         }
         if (choice == 17 ){
             //Number Staircase Pattern
-
+            numberStaircase();
 
         }
         if (choice == 18 ){
@@ -249,6 +249,36 @@ static void multiplicationTable(Scanner sc) {
         System.out.println(num1+ " is Odd.");
 
 
+    //1-Number Staircase Pattern:
+static void numberStaircase() {
+System.out.println("--- NUMBER STAIRCASE PATTERN ---");
+System.out.print("Enter number of rows: ");
+int rows = sc.nextInt();
+if (rows <= 0) {
+System.out.println(" Error: Number of rows must be positive.");
+ return;
+ }
+ for (int i = 1; i <= rows; i++) {
+ for (int j = 1; j <= i; j++) {
+ System.out.print(j + " ");
+ }
+ System.out.println();
+
+            }
+        }
+
+    }
+}
+static void multiplicationTable() {
+
+    System.out.println("--- MULTIPLICATION TABLE ---");
+
+    System.out.print("Enter a number: ");
+    int number = sc.nextInt();
+
+    for (int i = 1; i <= 10; i++) {
+
+        System.out.println(number + " x " + i + " = " + (number * i));
 
         static void Palindrome(Scanner scanner){
                 if (original == reversed) {
@@ -275,7 +305,6 @@ static void multiplicationTable(Scanner sc) {
                     System.out.println("Error: Factorial is not defined for negative numbers.");
                 }
             }
-
 static void triangle(Scanner scanner){
                     System.out.println("--\sTRIANGLE PATTERN\s--");
                     System.out.println("Enter number of Rows: ");
