@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db0dd2d-a90c-4cfb-a3dc-7bef819ac975" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MAIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="3A0tg5dUkravcJLaegwjHvddPoa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
