@@ -12,7 +12,7 @@ public class MAIN{
         //3 maryam
         System.out.println("--- MULTIPLICATION  ---");
         int product = num1 * num2;
-        System.out.println(num1 + "*" + numb2 + "=" + product);
+        System.out.println(num1 + "*" + num2 + "=" + product);
 
         if (num2 == 0 ){
             System.out.println("❌ Error: Cannot divide by zero");
