@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db0dd2d-a90c-4cfb-a3dc-7bef819ac975" name="Changes" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLI-java-calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CLI-java-calculator/MAIN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN.java" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MAIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MAIN.java" afterDir="false" />
+>>>>>>> 52cbc1e6611e9d644384a8ebfa6d1669d921fbc6
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Khadi/IdeaProjects/CLI-java-calculator",
